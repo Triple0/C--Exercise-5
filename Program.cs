@@ -51,20 +51,3 @@ namespace CSharp_Exercise_5
         }
     }
 }
-// Create a list of strings of varying length. Aim to have 10 different items of varying length and varying length and values.
-// Create two separate lists of strings, one will contain the half of the original list of strings with the shortest length. The other list will contain the list of strings with the longest half. (Beware losing the middle value if there is one! Put that one in the ‘largest’ list.)
-// For the short string list, display them to the console in alphabetical order with the following format: {index#}: {string}                           eg: 1: Apple
-// For the long string list, display them to the console in order of shortest to longest string in the following format:
-//     {length#}: {string} 			       eg: 4: Four 
-// for (i = 0; i < l; i++)
-// 		{
-// 			for (j = 0; j < l-1; j++)
-// 			  {
-// 				if (arr1[j].CompareTo(arr1[j + 1]) > 0)
-// 				  {
-//                    temp = arr1[j];
-//                    arr1[j] = arr1[j + 1];
-//                    arr1[j + 1] = temp;
-//                   }
-//               }
-//         }
